@@ -1,0 +1,30 @@
+{
+  "name": "isotope",
+  "version": "1.0.0",
+  "description": "Add special props to react elements that have other props",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel lib -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trunkclub/isotope.git"
+  },
+  "keywords": [
+    "react",
+    "radioactive",
+    "tagging",
+    "tracer"
+  ],
+  "author": "Zach Perrault <zach@trunkclub.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trunkclub/isotope/issues"
+  },
+  "homepage": "https://github.com/trunkclub/isotope#readme",
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-trunkclub": "^3.0.3"
+  }
+}
