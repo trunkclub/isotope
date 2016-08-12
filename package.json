@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "babel lib -d dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,9 @@
   "homepage": "https://github.com/trunkclub/isotope#readme",
   "devDependencies": {
     "babel-cli": "^6.11.4",
-    "babel-preset-trunkclub": "^3.0.3"
+    "babel-preset-trunkclub": "^3.0.3",
+    "babel-register": "^6.11.6",
+    "jasmine": "^2.4.1"
   },
   "dependencies": {
     "react-display-name": "^0.2.0"
